@@ -37,6 +37,14 @@ export BUILD_NAME='custom_build'
 # Default number of parallel cores for each build.
 export NUM_CORES=8
 
+# Default operating systems to build for
+# Valid values ("linux windows macos web ios android")
+export OPERATING_SYSTEMS=("windows")
+
+# Default Architectures to build for
+# Valid values ("x86_32 x86_64 arm32 arm64")
+export ARCHITECTURES=("x86_64")
+
 # Set up your own signing keystore and relevant details below.
 # If you do not fill all SIGN_* fields, signing will be skipped.
 
